@@ -3,9 +3,6 @@ def turn_count(board)
   board.each do |space|
     if slot !=""
       counter +=1 
-      
-  
-  
 end
 
 def current_player
