@@ -4,3 +4,4 @@ def turn_count(board)
     if slot !=""
       counter +=1 
 end
+end
