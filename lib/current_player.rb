@@ -11,10 +11,13 @@ end
 
 def current_player(board)
   turns = turn_count(board)
-  if turns % 2 == 0
+  turns % 2 == 0
     return "X"
   else
     return "O"
   end
 end
 
+score= 50
+result = score > 40 ? 'Pass' : 'Fail'
+puts result
