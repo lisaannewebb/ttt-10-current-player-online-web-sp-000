@@ -14,3 +14,4 @@ def current_player(board)
   if turns % 2 == 0 ? "X" : "O"
 end
 end
+
